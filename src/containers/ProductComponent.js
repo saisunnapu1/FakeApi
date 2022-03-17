@@ -25,6 +25,7 @@ const ProductComponent = () => {
       <>
         <div className="four wide column">
           <img src={product.image} alt="hai" height="180px" width="100px" />
+          <p>{product.title}</p>
           <p>
             Price <span className="price-color">{product.price}</span>$
           </p>
