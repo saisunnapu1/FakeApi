@@ -7,8 +7,8 @@ import "./styles.css";
 export default function App() {
   return (
     <div className="App">
-      <Header />
       <BrowserRouter>
+        <Header />
         <Routes>
           <Route path="/" element={<ProductListing />} />
           <Route path="/product/:productId" element={<ProducDetail />} />
